@@ -1,140 +1,135 @@
 {
-    "ark": {
-        "Type": "GithubDownloadUntarFile",
-        "Cmd": "ark",
-        "VersionArg": "version",
-        "VersionRegexp": "Version: (v.+?)\n",
-        "GithubOwner": "heptio",
-        "GithubRepo": "velero",
-        "ReleaseName": "ark-{VVERSION}-linux-amd64.tar.gz",
-        "Filename": "ark"
+    "github": {
+        "directdownload": [
+            {
+                "Cmd": "docker-compose",
+                "VersionArg": "version",
+                "VersionRegexp": "docker-compose version (.+?),",
+                "GithubOwner": "docker",
+                "GithubRepo": "compose",
+                "ReleaseName": "docker-compose-Linux-x86_64"
+            },
+            {
+                "Cmd": "fly",
+                "VersionArg": "--version",
+                "VersionRegexp": "(.+?)\n",
+                "GithubOwner": "concourse",
+                "GithubRepo": "concourse",
+                "ReleaseName": "fly_linux_amd64"
+            },
+            {
+                "Cmd": "helmfile",
+                "VersionArg": "--version",
+                "VersionRegexp": "version (v.+?)\n",
+                "GithubOwner": "roboll",
+                "GithubRepo": "helmfile",
+                "ReleaseName": "helmfile_linux_amd64"
+            },
+            {
+                "Cmd": "img",
+                "VersionArg": "version",
+                "VersionRegexp": "version.+?(v.+?)\n",
+                "GithubOwner": "genuinetools",
+                "GithubRepo": "img",
+                "ReleaseName": "img-linux-amd64"
+            },
+            {
+                "Cmd": "kops",
+                "VersionArg": "version",
+                "VersionRegexp": "Version (.+?) ",
+                "GithubOwner": "kubernetes",
+                "GithubRepo": "kops",
+                "ReleaseName": "kops-linux-amd64"
+            },
+            {
+                "Cmd": "kustomize",
+                "VersionArg": "version",
+                "VersionRegexp": "KustomizeVersion:(.+?) ",
+                "GithubOwner": "kubernetes-sigs",
+                "GithubRepo": "kustomize",
+                "ReleaseName": "kustomize_{VVERSION}_linux_amd64"
+            },
+            {
+                "Cmd": "minikube",
+                "VersionArg": "version",
+                "VersionRegexp": "version: (v.+?)\n",
+                "GithubOwner": "kubernetes",
+                "GithubRepo": "minikube",
+                "ReleaseName": "minikube-linux-amd64"
+            },
+            {
+                "Cmd": "stern",
+                "VersionArg": "--version",
+                "VersionRegexp": "version (.+?)\n",
+                "GithubOwner": "wercker",
+                "GithubRepo": "stern",
+                "ReleaseName": "stern_linux_amd64"
+            },
+            {
+                "Cmd": "terraform-docs",
+                "VersionArg": "--version",
+                "VersionRegexp": "(.+?)\n",
+                "GithubOwner": "segmentio",
+                "GithubRepo": "terraform-docs",
+                "ReleaseName": "terraform-docs-{VVERSION}-linux-amd64"
+            }
+        ],
+        "untarfile": [
+            {
+                "Cmd": "ark",
+                "VersionArg": "version",
+                "VersionRegexp": "Version: (v.+?)\n",
+                "GithubOwner": "heptio",
+                "GithubRepo": "velero",
+                "ReleaseName": "ark-{VVERSION}-linux-amd64.tar.gz",
+                "Filename": "ark"
+            },
+            {
+                "Cmd": "dive",
+                "VersionArg": "version",
+                "VersionRegexp": "dive (.+?)\n",
+                "GithubOwner": "wagoodman",
+                "GithubRepo": "dive",
+                "ReleaseName": "dive_{VERSION}_linux_amd64.tar.gz",
+                "PreRelease": true,
+                "Filename": "dive"
+            },
+            {
+                "Cmd": "helm",
+                "VersionArg": "version --client",
+                "VersionRegexp": "SemVer:\"(.+?)\"",
+                "GithubOwner": "kubernetes",
+                "GithubRepo": "helm",
+                "DownloadURL": "https://storage.googleapis.com/kubernetes-helm/helm-{VVERSION}-linux-amd64.tar.gz",
+                "Filename": "linux-amd64/helm"
+            },
+            {
+                "Cmd": "k8sec",
+                "VersionArg": "version",
+                "VersionRegexp": "version (v.+?),",
+                "GithubOwner": "dtan4",
+                "GithubRepo": "k8sec",
+                "ReleaseName": "k8sec-{VVERSION}-linux-amd64.tar.gz",
+                "Filename": "linux-amd64/k8sec"
+            }
+        ],
+        "unzipfile": [
+            {
+                "Cmd": "tflint",
+                "VersionArg": "--version",
+                "VersionRegexp": "version (.+?)\n",
+                "GithubOwner": "wata727",
+                "GithubRepo": "tflint",
+                "ReleaseName": "tflint_linux_amd64.zip",
+                "Filename": "tflint"
+            }
+        ]
     },
-    "dive": {
-        "Type": "GithubDownloadUntarFile",
-        "Cmd": "dive",
-        "VersionArg": "version",
-        "VersionRegexp": "dive (.+?)\n",
-        "GithubOwner": "wagoodman",
-        "GithubRepo": "dive",
-        "ReleaseName": "dive_{VERSION}_linux_amd64.tar.gz",
-        "PreRelease": true,
-        "Filename": "dive"
-    },
-    "docker-compose": {
-        "Type": "GithubDirectDownload",
-        "Cmd": "docker-compose",
-        "VersionArg": "version",
-        "VersionRegexp": "docker-compose version (.+?),",
-        "GithubOwner": "docker",
-        "GithubRepo": "compose",
-        "ReleaseName": "docker-compose-Linux-x86_64"
-    },
-    "fly": {
-        "Type": "GithubDirectDownload",
-        "Cmd": "fly",
-        "VersionArg": "--version",
-        "VersionRegexp": "(.+?)\n",
-        "GithubOwner": "concourse",
-        "GithubRepo": "concourse",
-        "ReleaseName": "fly_linux_amd64"
-    },
-    "helm": {
-        "Type": "GithubDownloadUntarFile",
-        "Cmd": "helm",
-        "VersionArg": "version --client",
-        "VersionRegexp": "SemVer:\"(.+?)\"",
-        "GithubOwner": "kubernetes",
-        "GithubRepo": "helm",
-        "DownloadURL": "https://storage.googleapis.com/kubernetes-helm/helm-{VVERSION}-linux-amd64.tar.gz",
-        "Filename": "linux-amd64/helm"
-    },
-    "helmfile": {
-        "Type": "GithubDirectDownload",
-        "Cmd": "helmfile",
-        "VersionArg": "--version",
-        "VersionRegexp": "version (v.+?)\n",
-        "GithubOwner": "roboll",
-        "GithubRepo": "helmfile",
-        "ReleaseName": "helmfile_linux_amd64"
-    },
-    "img": {
-        "Type": "GithubDirectDownload",
-        "Cmd": "img",
-        "VersionArg": "version",
-        "VersionRegexp": "version.+?(v.+?)\n",
-        "GithubOwner": "genuinetools",
-        "GithubRepo": "img",
-        "ReleaseName": "img-linux-amd64"
-    },
-    "k8sec": {
-        "Type": "GithubDownloadUntarFile",
-        "Cmd": "k8sec",
-        "VersionArg": "version",
-        "VersionRegexp": "version (v.+?),",
-        "GithubOwner": "dtan4",
-        "GithubRepo": "k8sec",
-        "ReleaseName": "k8sec-{VVERSION}-linux-amd64.tar.gz",
-        "Filename": "linux-amd64/k8sec"
-    },
-    "kops": {
-        "Type": "GithubDirectDownload",
-        "Cmd": "kops",
-        "VersionArg": "version",
-        "VersionRegexp": "Version (.+?) ",
-        "GithubOwner": "kubernetes",
-        "GithubRepo": "kops",
-        "ReleaseName": "kops-linux-amd64"
-    },
-    "kustomize": {
-        "Type": "GithubDirectDownload",
-        "Cmd": "kustomize",
-        "VersionArg": "version",
-        "VersionRegexp": "KustomizeVersion:(.+?) ",
-        "GithubOwner": "kubernetes-sigs",
-        "GithubRepo": "kustomize",
-        "ReleaseName": "kustomize_{VVERSION}_linux_amd64"
-    },
-    "minikube": {
-        "Type": "GithubDirectDownload",
-        "Cmd": "minikube",
-        "VersionArg": "version",
-        "VersionRegexp": "version: (v.+?)\n",
-        "GithubOwner": "kubernetes",
-        "GithubRepo": "minikube",
-        "ReleaseName": "minikube-linux-amd64"
-    },
-    "stern": {
-        "Type": "GithubDirectDownload",
-        "Cmd": "stern",
-        "VersionArg": "--version",
-        "VersionRegexp": "version (.+?)\n",
-        "GithubOwner": "wercker",
-        "GithubRepo": "stern",
-        "ReleaseName": "stern_linux_amd64"
-    },
-    "terraform": {
-        "Type": "Hashicorp",
-        "Cmd": "terraform",
-        "VersionArg": "version",
-        "VersionRegexp": "Terraform (v.+?)\n"
-    },
-    "terraform-docs": {
-        "Type": "GithubDirectDownload",
-        "Cmd": "terraform-docs",
-        "VersionArg": "--version",
-        "VersionRegexp": "(.+?)\n",
-        "GithubOwner": "segmentio",
-        "GithubRepo": "terraform-docs",
-        "ReleaseName": "terraform-docs-{VVERSION}-linux-amd64"
-    },
-    "tflint": {
-        "Type": "GithubDownloadUnzipFile",
-        "Cmd": "tflint",
-        "VersionArg": "--version",
-        "VersionRegexp": "version (.+?)\n",
-        "GithubOwner": "wata727",
-        "GithubRepo": "tflint",
-        "ReleaseName": "tflint_linux_amd64.zip",
-        "Filename": "tflint"
-    }
+    "hashicorp": [
+        {
+            "Cmd": "terraform",
+            "VersionArg": "version",
+            "VersionRegexp": "Terraform (v.+?)\n"
+        }
+    ]
 }
