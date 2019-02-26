@@ -72,6 +72,14 @@
                 "GithubOwner": "segmentio",
                 "GithubRepo": "terraform-docs",
                 "ReleaseName": "terraform-docs-{VVERSION}-linux-amd64"
+            },
+            {
+                "Cmd": "vk",
+                "VersionArg": "--version",
+                "VersionRegexp": "version (.+?)\n",
+                "GithubOwner": "drzero42",
+                "GithubRepo": "vk",
+                "ReleaseName": "vk_{VERSION}_linux_amd64"
             }
         ],
         "untarfile": [
