@@ -75,8 +75,8 @@
             },
             {
                 "Cmd": "vk",
-                "VersionArg": "--version",
-                "VersionRegexp": "version (.+?)\n",
+                "VersionArg": "version",
+                "VersionRegexp": "Version: (.+?)\n",
                 "GithubOwner": "drzero42",
                 "GithubRepo": "vk",
                 "ReleaseName": "vk_{VERSION}_linux_x86_64"
