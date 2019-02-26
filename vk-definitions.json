@@ -7,7 +7,7 @@
                 "VersionRegexp": "docker-compose version (.+?),",
                 "GithubOwner": "docker",
                 "GithubRepo": "compose",
-                "ReleaseName": "docker-compose-Linux-x86_64"
+                "DownloadURL": "https://github.com/docker/compose/releases/download/{VERSION}/docker-compose-Linux-x86_64"
             },
             {
                 "Cmd": "fly",
