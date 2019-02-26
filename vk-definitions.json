@@ -47,7 +47,7 @@
                 "VersionRegexp": "KustomizeVersion:(.+?) ",
                 "GithubOwner": "kubernetes-sigs",
                 "GithubRepo": "kustomize",
-                "ReleaseName": "kustomize_{VVERSION}_linux_amd64"
+                "ReleaseName": "kustomize_{VERSION}_linux_amd64"
             },
             {
                 "Cmd": "minikube",
