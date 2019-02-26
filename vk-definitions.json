@@ -79,7 +79,7 @@
                 "VersionRegexp": "version (.+?)\n",
                 "GithubOwner": "drzero42",
                 "GithubRepo": "vk",
-                "ReleaseName": "vk_{VERSION}_linux_amd64"
+                "ReleaseName": "vk_{VERSION}_linux_x86_64"
             }
         ],
         "untarfile": [
