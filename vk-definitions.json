@@ -63,7 +63,7 @@
                 "VersionRegexp": "version (.+?)\n",
                 "GithubOwner": "wercker",
                 "GithubRepo": "stern",
-                "ReleaseName": "stern_linux_amd64"
+                "DownloadURL": "https://github.com/wercker/stern/releases/download/{VERSION}/stern_linux_amd64"
             },
             {
                 "Cmd": "terraform-docs",
