@@ -77,7 +77,7 @@
                 "Cmd": "vk",
                 "VersionArg": "version",
                 "VersionRegexp": "Version: (.+?)\n",
-                "GithubOwner": "drzero42",
+                "GithubOwner": "cellpointmobile",
                 "GithubRepo": "vk",
                 "ReleaseName": "vk_{VERSION}_linux_x86_64"
             }
