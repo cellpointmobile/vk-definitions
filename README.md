@@ -1,1 +1,1 @@
-This repository is for vk definitions.
+This repository is for [vk](https://github.com/cellpointmobile/vk) definitions.
