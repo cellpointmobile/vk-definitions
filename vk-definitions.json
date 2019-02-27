@@ -39,7 +39,7 @@
                 "VersionRegexp": "Version (.+?) ",
                 "GithubOwner": "kubernetes",
                 "GithubRepo": "kops",
-                "ReleaseName": "kops-linux-amd64"
+                "DownloadURL": "https://github.com/kubernetes/kops/releases/download/{VERSION}/kops-linux-amd64"
             },
             {
                 "Cmd": "kustomize",
