@@ -119,6 +119,15 @@
                 "GithubRepo": "k8sec",
                 "ReleaseName": "k8sec-{VVERSION}-linux-amd64.tar.gz",
                 "Filename": "linux-amd64/k8sec"
+            },
+            {
+                "Cmd": "kubespy",
+                "VersionArg": "version",
+                "VersionRegexp": "(.+?)\n",
+                "GithubOwner": "pulumi",
+                "GithubRepo": "kubespy",
+                "ReleaseName": "kubespy-linux-amd64.tar.gz",
+                "Filename": "releases/kubespy-linux-amd64/kubespy"
             }
         ],
         "unzipfile": [
