@@ -10,14 +10,6 @@
                 "DownloadURL": "https://github.com/docker/compose/releases/download/{VERSION}/docker-compose-Linux-x86_64"
             },
             {
-                "Cmd": "fly",
-                "VersionArg": "--version",
-                "VersionRegexp": "(.+?)\n",
-                "GithubOwner": "concourse",
-                "GithubRepo": "concourse",
-                "ReleaseName": "fly_linux_amd64"
-            },
-            {
                 "Cmd": "helmfile",
                 "VersionArg": "--version",
                 "VersionRegexp": "version (v.+?)\n",
@@ -101,6 +93,15 @@
                 "ReleaseName": "dive_{VERSION}_linux_amd64.tar.gz",
                 "PreRelease": true,
                 "Filename": "dive"
+            },
+            {
+                "Cmd": "fly",
+                "VersionArg": "--version",
+                "VersionRegexp": "(.+?)\n",
+                "GithubOwner": "concourse",
+                "GithubRepo": "concourse",
+                "ReleaseName": "fly-linux-amd64.tgz",
+                "Filename": "fly"
             },
             {
                 "Cmd": "helm",
