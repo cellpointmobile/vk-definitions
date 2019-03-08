@@ -76,15 +76,6 @@
         ],
         "untarfile": [
             {
-                "Cmd": "ark",
-                "VersionArg": "version",
-                "VersionRegexp": "Version: (v.+?)\n",
-                "GithubOwner": "heptio",
-                "GithubRepo": "velero",
-                "ReleaseName": "ark-{VVERSION}-linux-amd64.tar.gz",
-                "Filename": "ark"
-            },
-            {
                 "Cmd": "dive",
                 "VersionArg": "version",
                 "VersionRegexp": "dive (.+?)\n",
@@ -129,6 +120,15 @@
                 "GithubRepo": "kubespy",
                 "ReleaseName": "kubespy-linux-amd64.tar.gz",
                 "Filename": "releases/kubespy-linux-amd64/kubespy"
+            },
+            {
+                "Cmd": "velero",
+                "VersionArg": "version",
+                "VersionRegexp": "Version: (v.+?)\n",
+                "GithubOwner": "heptio",
+                "GithubRepo": "velero",
+                "ReleaseName": "velero-{VVERSION}-linux-amd64.tar.gz",
+                "Filename": "velero"
             }
         ],
         "unzipfile": [
