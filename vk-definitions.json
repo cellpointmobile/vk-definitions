@@ -154,8 +154,13 @@
     "hashicorp": [
         {
             "Cmd": "terraform",
-            "VersionArg": "version",
+            "VersionArg": "-v",
             "VersionRegexp": "Terraform (v.+?)\n"
+        },
+        {
+            "Cmd": "vagrant",
+            "VersionArg": "-v",
+            "VersionRegexp": "Vagrant (.+?)\n"
         }
     ]
 }
