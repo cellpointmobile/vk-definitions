@@ -153,6 +153,11 @@
     },
     "hashicorp": [
         {
+            "Cmd": "packer",
+            "VersionArg": "-v",
+            "VersionRegexp": "(.+?)\n"
+        },
+        {
             "Cmd": "terraform",
             "VersionArg": "-v",
             "VersionRegexp": "Terraform (v.+?)\n"
