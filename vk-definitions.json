@@ -7,12 +7,12 @@
                 "VersionRegexp": "docker-compose version (.+?),",
                 "GithubOwner": "docker",
                 "GithubRepo": "compose",
-                "DownloadURL": "https://github.com/docker/compose/releases/download/{VERSION}/docker-compose-Linux-x86_64"
+                "ReleaseName": "docker-compose-Linux-x86_64"
             },
             {
                 "Cmd": "helmfile",
                 "VersionArg": "--version",
-                "VersionRegexp": "version (v.+?)\n",
+                "VersionRegexp": "version v(.+?)\n",
                 "GithubOwner": "roboll",
                 "GithubRepo": "helmfile",
                 "ReleaseName": "helmfile_linux_amd64"
@@ -20,7 +20,7 @@
             {
                 "Cmd": "img",
                 "VersionArg": "version",
-                "VersionRegexp": "version.+?(v.+?)\n",
+                "VersionRegexp": "version.+?v(.+?)\n",
                 "GithubOwner": "genuinetools",
                 "GithubRepo": "img",
                 "ReleaseName": "img-linux-amd64"
@@ -39,7 +39,7 @@
                 "VersionRegexp": "Version (.+?) ",
                 "GithubOwner": "kubernetes",
                 "GithubRepo": "kops",
-                "DownloadURL": "https://github.com/kubernetes/kops/releases/download/{VERSION}/kops-linux-amd64"
+                "ReleaseName": "kops-linux-amd64"
             },
             {
                 "Cmd": "kubedb",
@@ -47,7 +47,7 @@
                 "VersionRegexp": "Version = (.+?)\n",
                 "GithubOwner": "kubedb",
                 "GithubRepo": "cli",
-                "DownloadURL": "https://github.com/kubedb/cli/releases/download/{VERSION}/kubedb-linux-amd64"
+                "ReleaseName": "kubedb-linux-amd64"
             },
             {
                 "Cmd": "kustomize",
@@ -60,7 +60,7 @@
             {
                 "Cmd": "minikube",
                 "VersionArg": "version",
-                "VersionRegexp": "version: (v.+?)\n",
+                "VersionRegexp": "version: v(.+?)\n",
                 "GithubOwner": "kubernetes",
                 "GithubRepo": "minikube",
                 "ReleaseName": "minikube-linux-amd64"
@@ -71,7 +71,7 @@
                 "VersionRegexp": "version (.+?)\n",
                 "GithubOwner": "wercker",
                 "GithubRepo": "stern",
-                "DownloadURL": "https://github.com/wercker/stern/releases/download/{VERSION}/stern_linux_amd64"
+                "ReleaseName": "stern_linux_amd64"
             },
             {
                 "Cmd": "terraform-docs",
@@ -87,7 +87,7 @@
                 "VersionRegexp": "Version: (.+?)\n",
                 "GithubOwner": "cellpointmobile",
                 "GithubRepo": "vk",
-                "ReleaseName": "vk_{VERSION}_linux_x86_64"
+                "ReleaseName": "vk_{VERSION}_Linux_x86_64"
             }
         ],
         "untarfile": [
@@ -107,7 +107,7 @@
                 "VersionRegexp": "(.+?)\n",
                 "GithubOwner": "concourse",
                 "GithubRepo": "concourse",
-                "ReleaseName": "fly-linux-amd64.tgz",
+                "ReleaseName": "fly-{VERSION}-linux-amd64.tgz",
                 "Filename": "fly"
             },
             {
