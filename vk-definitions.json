@@ -79,7 +79,7 @@
                 "VersionRegexp": "(.+?)\n",
                 "GithubOwner": "segmentio",
                 "GithubRepo": "terraform-docs",
-                "ReleaseName": "terraform-docs-{VVERSION}-linux-amd64"
+                "ReleaseName": "terraform-docs-v{VERSION}-linux-amd64"
             },
             {
                 "Cmd": "vk",
@@ -116,7 +116,7 @@
                 "VersionRegexp": "SemVer:\"(.+?)\"",
                 "GithubOwner": "kubernetes",
                 "GithubRepo": "helm",
-                "DownloadURL": "https://storage.googleapis.com/kubernetes-helm/helm-{VVERSION}-linux-amd64.tar.gz",
+                "DownloadURL": "https://storage.googleapis.com/kubernetes-helm/helm-v{VERSION}-linux-amd64.tar.gz",
                 "Filename": "linux-amd64/helm"
             },
             {
@@ -125,7 +125,7 @@
                 "VersionRegexp": "version (v.+?),",
                 "GithubOwner": "dtan4",
                 "GithubRepo": "k8sec",
-                "ReleaseName": "k8sec-{VVERSION}-linux-amd64.tar.gz",
+                "ReleaseName": "k8sec-v{VERSION}-linux-amd64.tar.gz",
                 "Filename": "linux-amd64/k8sec"
             },
             {
@@ -138,12 +138,21 @@
                 "Filename": "releases/kubespy-linux-amd64/kubespy"
             },
             {
+                "Cmd": "ship",
+                "VersionArg": "version",
+                "VersionRegexp": "\"version\": \"(.+?)\"",
+                "GithubOwner": "replicatedhq",
+                "GithubRepo": "ship",
+                "ReleaseName": "ship_{VERSION}_linux_amd64.tar.gz",
+                "Filename": "ship"
+            },
+            {
                 "Cmd": "velero",
                 "VersionArg": "version",
                 "VersionRegexp": "Version: (v.+?)\n",
                 "GithubOwner": "heptio",
                 "GithubRepo": "velero",
-                "ReleaseName": "velero-{VVERSION}-linux-amd64.tar.gz",
+                "ReleaseName": "velero-v{VERSION}-linux-amd64.tar.gz",
                 "Filename": "velero"
             }
         ],
