@@ -10,6 +10,14 @@
                 "ReleaseName": "docker-compose-Linux-x86_64"
             },
             {
+                "Cmd": "argocd",
+                "VersionArg": "version --client --short",
+                "VersionRegexp": "argocd: v(.+?)\\+.+",
+                "GithubOwner": "argoproj",
+                "GithubRepo": "argo-cd",
+                "ReleaseName": "argocd-linux-amd64"
+            },
+            {
                 "Cmd": "helmfile",
                 "VersionArg": "--version",
                 "VersionRegexp": "version v(.+?)\n",
