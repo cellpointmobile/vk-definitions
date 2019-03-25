@@ -50,6 +50,14 @@
                 "ReleaseName": "kops-linux-amd64"
             },
             {
+                "Cmd": "kubecfg",
+                "VersionArg": "version",
+                "VersionRegexp": "kubecfg version: v(.+?)\n",
+                "GithubOwner": "ksonnet",
+                "GithubRepo": "kubecfg",
+                "ReleaseName": "kubecfg-linux-amd64"
+            },
+            {
                 "Cmd": "kubedb",
                 "VersionArg": "version",
                 "VersionRegexp": "Version = (.+?)\n",
