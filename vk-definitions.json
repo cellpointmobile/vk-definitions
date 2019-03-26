@@ -172,6 +172,15 @@
                 "Filename": "ship"
             },
             {
+                "Cmd": "task",
+                "VersionArg": "--version",
+                "VersionRegexp": "Task version: (.+?)\n",
+                "GithubOwner": "go-task",
+                "GithubRepo": "task",
+                "ReleaseName": "task_linux_amd64.tar.gz",
+                "Filename": "task"
+            },
+            {
                 "Cmd": "velero",
                 "VersionArg": "version",
                 "VersionRegexp": "Version: (v.+?)\n",
