@@ -154,6 +154,15 @@
                 "Filename": "linux-amd64/k8sec"
             },
             {
+                "Cmd": "kubeprod",
+                "VersionArg": "version",
+                "VersionRegexp": "Installer version: v(.+?)\n",
+                "GithubOwner": "bitnami",
+                "GithubRepo": "kube-prod-runtime",
+                "ReleaseName": "bkpr-v{VERSION}-linux-amd64.tar.gz",
+                "Filename": "bkpr-v{VERSION}/kubeprod"
+            },
+            {
                 "Cmd": "kubespy",
                 "VersionArg": "version",
                 "VersionRegexp": "(.+?)\n",
