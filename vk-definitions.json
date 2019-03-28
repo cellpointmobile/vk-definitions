@@ -90,6 +90,14 @@
                 "ReleaseName": "stern_linux_amd64"
             },
             {
+                "Cmd": "onessl",
+                "VersionArg": "version",
+                "VersionRegexp": "Version = (.+?)\n",
+                "GithubOwner": "kubepack",
+                "GithubRepo": "onessl",
+                "ReleaseName": "onessl-linux-amd64"
+            },
+            {
                 "Cmd": "terraform-docs",
                 "VersionArg": "--version",
                 "VersionRegexp": "(.+?)\n",
