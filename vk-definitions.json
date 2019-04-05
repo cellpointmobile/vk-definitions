@@ -180,6 +180,15 @@
                 "Filename": "releases/kubespy-linux-amd64/kubespy"
             },
             {
+                "Cmd": "qbec",
+                "VersionArg": "version",
+                "VersionRegexp": "qbec version: (.+?)\n",
+                "GithubOwner": "splunk",
+                "GithubRepo": "qbec",
+                "ReleaseName": "qbec-linux-amd64.tar.gz",
+                "Filename": "qbec"
+            },
+            {
                 "Cmd": "ship",
                 "VersionArg": "version",
                 "VersionRegexp": "\"version\": \"(.+?)\"",
