@@ -42,6 +42,14 @@
                 "ReleaseName": "jl_linux_amd64"
             },
             {
+                "Cmd": "kapp",
+                "VersionArg": "version",
+                "VersionRegexp": "Client Version: (.+?)\n",
+                "GithubOwner": "k14s",
+                "GithubRepo": "kapp",
+                "ReleaseName": "kapp-linux-amd64"
+            },
+            {
                 "Cmd": "kops",
                 "VersionArg": "version",
                 "VersionRegexp": "Version (.+?) ",
