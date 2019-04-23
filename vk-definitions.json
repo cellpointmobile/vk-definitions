@@ -90,6 +90,14 @@
                 "ReleaseName": "minikube-linux-amd64"
             },
             {
+                "Cmd": "skaffold",
+                "VersionArg": "version",
+                "VersionRegexp": "v(.+?)\n",
+                "GithubOwner": "GoogleContainerTools",
+                "GithubRepo": "skaffold",
+                "ReleaseName": "skaffold-linux-amd64"
+            },
+            {
                 "Cmd": "stern",
                 "VersionArg": "--version",
                 "VersionRegexp": "version (.+?)\n",
