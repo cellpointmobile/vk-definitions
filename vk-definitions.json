@@ -178,6 +178,16 @@
                 "Filename": "linux-amd64/k8sec"
             },
             {
+                "Cmd": "k9s",
+                "VersionArg": "version",
+                "VersionRegexp": "Version:\\s+(.+?)\n",
+                "GithubOwner": "derailed",
+                "GithubRepo": "k9s",
+                "ReleaseName": "k9s_{VERSION}_Linux_x86_64.tar.gz",
+                "PreRelease": true,
+                "Filename": "k9s"
+            },
+            {
                 "Cmd": "kubeprod",
                 "VersionArg": "version",
                 "VersionRegexp": "Installer version: v(.+?)\n",
