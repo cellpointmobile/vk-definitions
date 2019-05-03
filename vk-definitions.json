@@ -128,6 +128,14 @@
                 "GithubOwner": "cellpointmobile",
                 "GithubRepo": "vk",
                 "ReleaseName": "vk_{VERSION}_Linux_x86_64"
+            },
+            {
+                "Cmd": "ytt",
+                "VersionArg": "version",
+                "VersionRegexp": "Version: (.+?)\n",
+                "GithubOwner": "k14s",
+                "GithubRepo": "ytt",
+                "ReleaseName": "ytt-linux-amd64"
             }
         ],
         "untarfile": [
