@@ -247,7 +247,7 @@
                 "GithubOwner": "heptio",
                 "GithubRepo": "velero",
                 "ReleaseName": "velero-v{VERSION}-linux-amd64.tar.gz",
-                "Filename": "velero"
+                "Filename": "velero-v{VERSION}-linux-amd64/velero"
             }
         ],
         "unzipfile": [
