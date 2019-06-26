@@ -2,20 +2,20 @@
     "github": {
         "directdownload": [
             {
-                "Cmd": "docker-compose",
-                "VersionArg": "version",
-                "VersionRegexp": "docker-compose version (.+?),",
-                "GithubOwner": "docker",
-                "GithubRepo": "compose",
-                "ReleaseName": "docker-compose-Linux-x86_64"
-            },
-            {
                 "Cmd": "argocd",
                 "VersionArg": "version --client --short",
                 "VersionRegexp": "argocd: v(.+?)\\+.+",
                 "GithubOwner": "argoproj",
                 "GithubRepo": "argo-cd",
                 "ReleaseName": "argocd-linux-amd64"
+            },
+            {
+                "Cmd": "docker-compose",
+                "VersionArg": "version",
+                "VersionRegexp": "docker-compose version (.+?),",
+                "GithubOwner": "docker",
+                "GithubRepo": "compose",
+                "ReleaseName": "docker-compose-Linux-x86_64"
             },
             {
                 "Cmd": "helmfile",
