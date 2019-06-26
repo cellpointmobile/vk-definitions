@@ -106,6 +106,14 @@
                 "ReleaseName": "minikube-linux-amd64"
             },
             {
+                "Cmd": "rio",
+                "VersionArg": "--version",
+                "VersionRegexp": "version.+?v(.+?) \\(",
+                "GithubOwner": "rancher",
+                "GithubRepo": "rio",
+                "ReleaseName": "rio-linux-amd64"
+            },
+            {
                 "Cmd": "skaffold",
                 "VersionArg": "version",
                 "VersionRegexp": "v(.+?)\n",
