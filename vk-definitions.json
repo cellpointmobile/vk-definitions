@@ -220,6 +220,15 @@
                 "Filename": "k9s"
             },
             {
+                "Cmd": "kail",
+                "VersionArg": "version",
+                "VersionRegexp": "(.+?) \\(",
+                "GithubOwner": "boz",
+                "GithubRepo": "kail",
+                "ReleaseName": "kail_{VERSION}_linux_amd64.tar.gz",
+                "Filename": "kail"
+            },
+            {
                 "Cmd": "kubeprod",
                 "VersionArg": "version",
                 "VersionRegexp": "Installer version: v(.+?)\n",
