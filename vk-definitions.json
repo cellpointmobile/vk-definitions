@@ -283,7 +283,7 @@
             },
             {
                 "Cmd": "velero",
-                "VersionArg": "version",
+                "VersionArg": "version --client-only",
                 "VersionRegexp": "Version: (v.+?)\n",
                 "GithubOwner": "heptio",
                 "GithubRepo": "velero",
