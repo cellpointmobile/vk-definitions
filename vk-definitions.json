@@ -255,6 +255,15 @@
                 "Filename": "releases/kubespy-linux-amd64/kubespy"
             },
             {
+                "Cmd": "octant",
+                "VersionArg": "version",
+                "VersionRegexp": "Version:  (.+?)\n",
+                "GithubOwner": "vmware",
+                "GithubRepo": "octant",
+                "ReleaseName": "octant_{VERSION}_Linux-64bit.tar.gz",
+                "Filename": "octant_{VERSION}_Linux-64bit/octant"
+            },
+            {
                 "Cmd": "qbec",
                 "VersionArg": "version",
                 "VersionRegexp": "qbec version: (.+?)\n",
