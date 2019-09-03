@@ -42,6 +42,14 @@
                 "ReleaseName": "jl_linux_amd64"
             },
             {
+                "Cmd": "kapitan",
+                "VersionArg": "--version",
+                "VersionRegexp": "(.+?)\n",
+                "GithubOwner": "deepmind",
+                "GithubRepo": "kapitan",
+                "ReleaseName": "kapitan-linux-amd64"
+            },
+            {
                 "Cmd": "kapp",
                 "VersionArg": "version",
                 "VersionRegexp": "Client Version: (.+?)\n",
