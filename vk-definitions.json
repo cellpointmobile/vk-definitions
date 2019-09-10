@@ -162,6 +162,14 @@
                 "ReleaseName": "terraform-docs-v{VERSION}-linux-amd64"
             },
             {
+                "Cmd": "terraformer",
+                "VersionArg": "--version",
+                "VersionRegexp": "version v(.+?)\n",
+                "GithubOwner": "GoogleCloudPlatform",
+                "GithubRepo": "terraformer",
+                "ReleaseName": "terraformer-linux-amd64"
+            },
+            {
                 "Cmd": "vk",
                 "VersionArg": "version",
                 "VersionRegexp": "Version: (.+?)\n",
