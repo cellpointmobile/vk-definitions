@@ -271,6 +271,15 @@
                 "Filename": "releases/kubespy-linux-amd64/kubespy"
             },
             {
+                "Cmd": "kubeval",
+                "VersionArg": "--version",
+                "VersionRegexp": "Version: (.+?)\n",
+                "GithubOwner": "instrumenta",
+                "GithubRepo": "kubeval",
+                "ReleaseName": "kubeval-linux-amd64.tar.gz",
+                "Filename": "kubeval"
+            },
+            {
                 "Cmd": "octant",
                 "VersionArg": "version",
                 "VersionRegexp": "Version:  (.+?)\n",
