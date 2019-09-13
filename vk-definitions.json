@@ -42,6 +42,14 @@
                 "ReleaseName": "jl_linux_amd64"
             },
             {
+                "Cmd": "k3sup",
+                "VersionArg": "version",
+                "VersionRegexp": "Version: (.+?)\n",
+                "GithubOwner": "alexellis",
+                "GithubRepo": "k3sup",
+                "ReleaseName": "k3sup"
+            },
+            {
                 "Cmd": "kapitan",
                 "VersionArg": "--version",
                 "VersionRegexp": "(.+?)\n",
