@@ -192,6 +192,14 @@
                 "GithubOwner": "k14s",
                 "GithubRepo": "ytt",
                 "ReleaseName": "ytt-linux-amd64"
+            },
+	    {
+	        "Cmd": "kubesec",
+                "VersionArg": "--version",
+                "VersionRegexp": "(.+?)\n",
+                "GithubOwner": "shyiko",
+                "GithubRepo": "kubesec",
+                "ReleaseName": "kubesec-{VERSION}-linux-amd64"
             }
         ],
         "untarfile": [
