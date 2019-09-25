@@ -75,7 +75,7 @@
             },
             {
                 "Cmd": "kops",
-                "VersionArg": "--version",
+                "VersionArg": "version",
                 "VersionRegexp": "Version (.+?) ",
                 "GithubOwner": "kubernetes",
                 "GithubRepo": "kops",
@@ -195,7 +195,7 @@
             },
 	    {
 	        "Cmd": "kubesec",
-                "VersionArg": "version",
+                "VersionArg": "--version",
                 "VersionRegexp": "(.+?)\n",
                 "GithubOwner": "shyiko",
                 "GithubRepo": "kubesec",
