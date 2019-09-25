@@ -196,7 +196,7 @@
 	    {
 	        "Cmd": "kubesec",
                 "VersionArg": "version",
-                "VersionRegexp": "v(.+?)\n",
+                "VersionRegexp": "(.+?)\n",
                 "GithubOwner": "shyiko",
                 "GithubRepo": "kubesec",
                 "ReleaseName": "kubesec-{VERSION}-linux-amd64"
