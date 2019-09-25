@@ -75,7 +75,7 @@
             },
             {
                 "Cmd": "kops",
-                "VersionArg": "version",
+                "VersionArg": "--version",
                 "VersionRegexp": "Version (.+?) ",
                 "GithubOwner": "kubernetes",
                 "GithubRepo": "kops",
