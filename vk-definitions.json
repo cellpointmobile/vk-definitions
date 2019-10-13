@@ -193,8 +193,8 @@
                 "GithubRepo": "ytt",
                 "ReleaseName": "ytt-linux-amd64"
             },
-	    {
-	        "Cmd": "kubesec",
+            {
+                "Cmd": "kubesec",
                 "VersionArg": "--version",
                 "VersionRegexp": "(.+?)\n",
                 "GithubOwner": "shyiko",
@@ -339,6 +339,15 @@
                 "GithubRepo": "velero",
                 "ReleaseName": "velero-v{VERSION}-linux-amd64.tar.gz",
                 "Filename": "velero-v{VERSION}-linux-amd64/velero"
+            },
+            {
+                "Cmd": "wksctl",
+                "VersionArg": "version",
+                "VersionRegexp": "(.+?)\n",
+                "GithubOwner": "weaveworks",
+                "GithubRepo": "wksctl",
+                "ReleaseName": "wksctl-{VERSION}-linux-x86_64.tar.gz",
+                "Filename": "wksctl"
             }
         ],
         "unzipfile": [
