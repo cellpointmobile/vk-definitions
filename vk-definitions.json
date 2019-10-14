@@ -10,6 +10,14 @@
                 "ReleaseName": "argocd-linux-amd64"
             },
             {
+                "Cmd": "direnv",
+                "VersionArg": "version",
+                "VersionRegexp": "(.+?)\n",
+                "GithubOwner": "direnv",
+                "GithubRepo": "direnv",
+                "ReleaseName": "direnv.linux-amd64"
+            },
+            {
                 "Cmd": "docker-compose",
                 "VersionArg": "version",
                 "VersionRegexp": "docker-compose version (.+?),",
