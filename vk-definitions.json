@@ -222,6 +222,15 @@
                 "Filename": "dive"
             },
             {
+                "Cmd": "dockerize",
+                "VersionArg": "-version",
+                "VersionRegexp": "v(.+?)\n",
+                "GithubOwner": "jwilder",
+                "GithubRepo": "dockerize",
+                "ReleaseName": "dockerize-linux-amd64-v{VERSION}.tar.gz",
+                "Filename": "dockerize"
+            },
+            {
                 "Cmd": "fly",
                 "VersionArg": "--version",
                 "VersionRegexp": "(.+?)\n",
