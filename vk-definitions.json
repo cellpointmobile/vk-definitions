@@ -26,6 +26,14 @@
                 "ReleaseName": "docker-compose-Linux-x86_64"
             },
             {
+                "Cmd": "fluxctl",
+                "VersionArg": "version",
+                "VersionRegexp": "(.+?)\n",
+                "GithubOwner": "fluxcd",
+                "GithubRepo": "flux",
+                "ReleaseName": "fluxctl_linux_amd64"
+            },
+            {
                 "Cmd": "helmfile",
                 "VersionArg": "--version",
                 "VersionRegexp": "version v(.+?)\n",
