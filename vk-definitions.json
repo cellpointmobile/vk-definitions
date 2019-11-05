@@ -114,14 +114,6 @@
                 "ReleaseName": "kubedb-linux-amd64"
             },
             {
-                "Cmd": "kustomize",
-                "VersionArg": "version",
-                "VersionRegexp": "KustomizeVersion:(.+?) ",
-                "GithubOwner": "kubernetes-sigs",
-                "GithubRepo": "kustomize",
-                "ReleaseName": "kustomize_{VERSION}_linux_amd64"
-            },
-            {
                 "Cmd": "kwt",
                 "VersionArg": "version",
                 "VersionRegexp": "Client Version: (.+?)\n",
@@ -262,7 +254,7 @@
                 "VersionRegexp": "version: v(.+?)\n",
                 "GithubOwner": "Praqma",
                 "GithubRepo": "helmsman",
-                "ReleaseName": "Helmsman_{VERSION}_linux_amd64.tar.gz",
+                "ReleaseName": "helmsman_{VERSION}_linux_amd64.tar.gz",
                 "Filename": "helmsman"
             },
             {
@@ -319,6 +311,16 @@
                 "GithubRepo": "kubeval",
                 "ReleaseName": "kubeval-linux-amd64.tar.gz",
                 "Filename": "kubeval"
+            },
+            {
+                "Cmd": "kustomize",
+                "VersionArg": "version",
+                "VersionRegexp": "Version:kustomize/v(.+?) ",
+                "GithubOwner": "kubernetes-sigs",
+                "GithubRepo": "kustomize",
+                "ReleaseName": "kustomize_{VERSION}_linux_amd64.tar.gz",
+                "Filename": "kustomize",
+                "TagName": "kustomize"
             },
             {
                 "Cmd": "octant",
