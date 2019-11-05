@@ -183,7 +183,7 @@
                 "VersionRegexp": "version v(.+?)\n",
                 "GithubOwner": "GoogleCloudPlatform",
                 "GithubRepo": "terraformer",
-                "ReleaseName": "terraformer-linux-amd64"
+                "ReleaseName": "terraformer-all-linux-amd64"
             },
             {
                 "Cmd": "vk",
