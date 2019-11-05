@@ -295,15 +295,6 @@
                 "Filename": "bkpr-v{VERSION}/kubeprod"
             },
             {
-                "Cmd": "kubespy",
-                "VersionArg": "version",
-                "VersionRegexp": "(.+?)\n",
-                "GithubOwner": "pulumi",
-                "GithubRepo": "kubespy",
-                "ReleaseName": "kubespy-linux-amd64.tar.gz",
-                "Filename": "releases/kubespy-linux-amd64/kubespy"
-            },
-            {
                 "Cmd": "kubeval",
                 "VersionArg": "--version",
                 "VersionRegexp": "Version: (.+?)\n",
