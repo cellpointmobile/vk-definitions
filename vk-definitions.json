@@ -241,11 +241,11 @@
             },
             {
                 "Cmd": "helm",
-                "VersionArg": "version --client",
-                "VersionRegexp": "SemVer:\"(.+?)\"",
+                "VersionArg": "version",
+                "VersionRegexp": "Version:\"v(.+?)\"",
                 "GithubOwner": "kubernetes",
                 "GithubRepo": "helm",
-                "DownloadURL": "https://storage.googleapis.com/kubernetes-helm/helm-v{VERSION}-linux-amd64.tar.gz",
+                "DownloadURL": "https://get.helm.sh/helm-v{VERSION}-linux-amd64.tar.gz",
                 "Filename": "linux-amd64/helm"
             },
             {
