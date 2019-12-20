@@ -323,6 +323,16 @@
                 "Filename": "octant_{VERSION}_Linux-64bit/octant"
             },
             {
+                "Cmd": "popeye",
+                "VersionArg": "version",
+                "VersionRegexp": "Version:\\s+(.+?)\n",
+                "GithubOwner": "derailed",
+                "GithubRepo": "popeye",
+                "ReleaseName": "popeye_{VERSION}_Linux_x86_64.tar.gz",
+                "PreRelease": true,
+                "Filename": "popeye"
+            },
+            {
                 "Cmd": "qbec",
                 "VersionArg": "version",
                 "VersionRegexp": "qbec version: (.+?)\n",
