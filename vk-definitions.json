@@ -114,6 +114,14 @@
                 "ReleaseName": "kubedb-linux-amd64"
             },
             {
+                "Cmd": "kubeseal",
+                "VersionArg": "--version",
+                "VersionRegexp": "kubeseal version: v(.+?)\n",
+                "GithubOwner": "bitnami-labs",
+                "GithubRepo": "sealed-secrets",
+                "ReleaseName": "kubeseal-linux-amd64"
+            },
+            {
                 "Cmd": "kwt",
                 "VersionArg": "version",
                 "VersionRegexp": "Client Version: (.+?)\n",
