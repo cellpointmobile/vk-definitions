@@ -384,6 +384,15 @@
                 "GithubRepo": "wksctl",
                 "ReleaseName": "wksctl-{VERSION}-linux-x86_64.tar.gz",
                 "Filename": "wksctl"
+            },
+            {
+                "Cmd": "prometheus_varnish_exporter",
+                "VersionArg": "-version",
+                "VersionRegexp": "prometheus_varnish_exporter v(.+?) \\(",
+                "GithubOwner": "jonnenauha",
+                "GithubRepo": "prometheus_varnish_exporter",
+                "ReleaseName": "prometheus_varnish_exporter-{VERSION}.linux-amd64.tar.gz",
+                "Filename": "prometheus_varnish_exporter-{VERSION}.linux-amd64/prometheus_varnish_exporter"
             }
         ],
         "unzipfile": [
