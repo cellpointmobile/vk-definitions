@@ -154,6 +154,14 @@
                 "ReleaseName": "skaffold-linux-amd64"
             },
             {
+                "Cmd": "sops",
+                "VersionArg": "--version",
+                "VersionRegexp": "sops (.+?) ",
+                "GithubOwner": "mozilla",
+                "GithubRepo": "sops",
+                "ReleaseName": "sops-v{VERSION}.linux"
+            },
+            {
                 "Cmd": "stern",
                 "VersionArg": "--version",
                 "VersionRegexp": "version (.+?)\n",
