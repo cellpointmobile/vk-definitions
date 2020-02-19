@@ -285,11 +285,10 @@
             {
                 "Cmd": "k9s",
                 "VersionArg": "version",
-                "VersionRegexp": "Version:\\s+(.+?)\n",
+                "VersionRegexp": "Version.+([0-9]+.[0-9]+.[0-9]+)",
                 "GithubOwner": "derailed",
                 "GithubRepo": "k9s",
-                "ReleaseName": "k9s_{VERSION}_Linux_x86_64.tar.gz",
-                "PreRelease": true,
+                "ReleaseName": "k9s_Linux_x86_64.tar.gz",
                 "Filename": "k9s"
             },
             {
