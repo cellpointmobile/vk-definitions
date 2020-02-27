@@ -340,7 +340,7 @@
             {
                 "Cmd": "popeye",
                 "VersionArg": "version",
-                "VersionRegexp": "Version:\\s+(.+?)\n",
+                "VersionRegexp": "Version:.+([0-9]+.[0-9]+.[0-9]+)",
                 "GithubOwner": "derailed",
                 "GithubRepo": "popeye",
                 "ReleaseName": "popeye_{VERSION}_Linux_x86_64.tar.gz",
