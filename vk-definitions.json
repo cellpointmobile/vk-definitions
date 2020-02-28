@@ -90,6 +90,14 @@
                 "ReleaseName": "kbld-linux-amd64"
             },
             {
+                "Cmd": "kind",
+                "VersionArg": "--version",
+                "VersionRegexp": "kind version (.+?)\n",
+                "GithubOwner": "kubernetes-sigs",
+                "GithubRepo": "kind",
+                "ReleaseName": "kind-linux-amd64"
+            },
+            {
                 "Cmd": "kops",
                 "VersionArg": "version",
                 "VersionRegexp": "Version (.+?) ",
