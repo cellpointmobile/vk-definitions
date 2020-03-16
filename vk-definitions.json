@@ -84,7 +84,7 @@
             {
                 "Cmd": "kbld",
                 "VersionArg": "version",
-                "VersionRegexp": "Client Version: (.+?)\n",
+                "VersionRegexp": "kbld version (.+?)\n",
                 "GithubOwner": "k14s",
                 "GithubRepo": "kbld",
                 "ReleaseName": "kbld-linux-amd64"
