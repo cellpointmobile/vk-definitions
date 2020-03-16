@@ -220,7 +220,7 @@
             {
                 "Cmd": "ytt",
                 "VersionArg": "version",
-                "VersionRegexp": "Version: (.+?)\n",
+                "VersionRegexp": "ytt version ([0-9]+.[0-9]+.[0-9]+)",
                 "GithubOwner": "k14s",
                 "GithubRepo": "ytt",
                 "ReleaseName": "ytt-linux-amd64"
