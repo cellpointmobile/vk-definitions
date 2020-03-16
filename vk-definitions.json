@@ -284,7 +284,7 @@
             {
                 "Cmd": "k8sec",
                 "VersionArg": "version",
-                "VersionRegexp": "version (v.+?),",
+                "VersionRegexp": "version v(.+?),",
                 "GithubOwner": "dtan4",
                 "GithubRepo": "k8sec",
                 "ReleaseName": "k8sec_Linux_x86_64.tar.gz",
