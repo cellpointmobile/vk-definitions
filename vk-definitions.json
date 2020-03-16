@@ -196,7 +196,7 @@
             {
                 "Cmd": "terraform-docs",
                 "VersionArg": "--version",
-                "VersionRegexp": "(.+?)\n",
+                "VersionRegexp": "terraform-docs version v([0-9]+.[0-9]+.[0-9]+) ",
                 "GithubOwner": "segmentio",
                 "GithubRepo": "terraform-docs",
                 "ReleaseName": "terraform-docs-v{VERSION}-linux-amd64"
