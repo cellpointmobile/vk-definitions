@@ -76,7 +76,7 @@
             {
                 "Cmd": "kapp",
                 "VersionArg": "version",
-                "VersionRegexp": "Client Version: (.+?)\n",
+                "VersionRegexp": "kapp version ([0-9]+.[0-9]+.[0-9]+)",
                 "GithubOwner": "k14s",
                 "GithubRepo": "kapp",
                 "ReleaseName": "kapp-linux-amd64"
