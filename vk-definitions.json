@@ -309,6 +309,15 @@
                 "Filename": "kail"
             },
             {
+                "Cmd": "kots",
+                "VersionArg": "version",
+                "VersionRegexp": "Replicated Kots ([0-9]+\\.[0-9]+\\.[0-9]+)",
+                "GithubOwner": "replicatedhq",
+                "GithubRepo": "kots",
+                "ReleaseName": "kots_linux_amd64.tar.gz",
+                "Filename": "kots"
+            },
+            {
                 "Cmd": "kubeprod",
                 "VersionArg": "version",
                 "VersionRegexp": "Installer version: v(.+?)\n",
