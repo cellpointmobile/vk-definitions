@@ -411,7 +411,7 @@
             {
                 "Cmd": "wksctl",
                 "VersionArg": "version",
-                "VersionRegexp": "(.+?)\n",
+                "VersionRegexp": "([0-9]+\\.[0-9]+\\.[0-9]+)\n",
                 "GithubOwner": "weaveworks",
                 "GithubRepo": "wksctl",
                 "ReleaseName": "wksctl-{VERSION}-linux-x86_64.tar.gz",
