@@ -50,6 +50,14 @@
                 "ReleaseName": "img-linux-amd64"
             },
             {
+                "Cmd": "jb",
+                "VersionArg": "--version",
+                "VersionRegexp": "v([0-9]+.[0-9]+.[0-9]+)",
+                "GithubOwner": "jsonnet-bundler",
+                "GithubRepo": "jsonnet-bundler",
+                "ReleaseName": "jb-linux-amd64"
+            },
+            {
                 "Cmd": "jl",
                 "VersionArg": "--version",
                 "VersionRegexp": "jl v(.+?)\n",
