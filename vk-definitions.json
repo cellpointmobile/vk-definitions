@@ -234,6 +234,14 @@
                 "ReleaseName": "vk_{VERSION}_Linux_x86_64"
             },
             {
+                "Cmd": "yq",
+                "VersionArg": "--version",
+                "VersionRegexp": "yq version ([0-9]+.[0-9]+.[0-9]+)",
+                "GithubOwner": "mikefarah",
+                "GithubRepo": "yq",
+                "ReleaseName": "yq_linux_amd64"
+            },
+            {
                 "Cmd": "ytt",
                 "VersionArg": "version",
                 "VersionRegexp": "ytt version ([0-9]+.[0-9]+.[0-9]+)",
