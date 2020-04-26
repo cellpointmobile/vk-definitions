@@ -272,6 +272,15 @@
                 "Filename": "fly"
             },
             {
+                "Cmd": "goreleaser",
+                "VersionArg": "--version",
+                "VersionRegexp": "version: ([0-9]+.[0-9]+.[0-9]+)\n",
+                "GithubOwner": "goreleaser",
+                "GithubRepo": "goreleaser",
+                "ReleaseName": "goreleaser_Linux_x86_64.tar.gz",
+                "Filename": "goreleaser"
+            },
+            {
                 "Cmd": "helm",
                 "VersionArg": "version",
                 "VersionRegexp": "Version:\"v(.+?)\"",
