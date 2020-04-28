@@ -380,6 +380,15 @@
                 "Filename": "octant_{VERSION}_Linux-64bit/octant"
             },
             {
+                "Cmd": "pluto",
+                "VersionArg": "version",
+                "VersionRegexp": "Version:([0-9]+.[0-9]+.[0-9]+)",
+                "GithubOwner": "FairwindsOps",
+                "GithubRepo": "pluto",
+                "ReleaseName": "pluto_{VERSION}_linux_amd64.tar.gz",
+                "Filename": "pluto"
+            },
+            {
                 "Cmd": "popeye",
                 "VersionArg": "version",
                 "VersionRegexp": "Version:.+([0-9]+.[0-9]+.[0-9]+)",
