@@ -194,14 +194,6 @@
                 "ReleaseName": "stern_linux_amd64"
             },
             {
-                "Cmd": "supergloo",
-                "VersionArg": "--version",
-                "VersionRegexp": "supergloo version (.+?)\n",
-                "GithubOwner": "solo-io",
-                "GithubRepo": "supergloo",
-                "ReleaseName": "supergloo-cli-linux-amd64"
-            },
-            {
                 "Cmd": "onessl",
                 "VersionArg": "version",
                 "VersionRegexp": "Version = (.+?)\n",
