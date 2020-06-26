@@ -10,6 +10,14 @@
                 "ReleaseName": "argocd-linux-amd64"
             },
             {
+                "Cmd": "container-diff",
+                "VersionArg": "version",
+                "VersionRegexp": "v([0-9]+.[0-9]+.[0-9]+)",
+                "GithubOwner": "GoogleContainerTools",
+                "GithubRepo": "container-diff",
+                "DownloadURL": "https://storage.googleapis.com/container-diff/v{VERSION}/container-diff-linux-amd64"
+            },
+            {
                 "Cmd": "direnv",
                 "VersionArg": "version",
                 "VersionRegexp": "(.+?)\n",
