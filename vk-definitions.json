@@ -74,6 +74,14 @@
                 "ReleaseName": "jl_linux_amd64"
             },
             {
+                "Cmd": "k3d",
+                "VersionArg": "version",
+                "VersionRegexp": "k3d version v([0-9]+.[0-9]+.[0-9]+)",
+                "GithubOwner": "rancher",
+                "GithubRepo": "k3d",
+                "ReleaseName": "k3d-linux-amd64"
+            },
+            {
                 "Cmd": "k3sup",
                 "VersionArg": "version",
                 "VersionRegexp": "Version: (.+?)\n",
