@@ -443,6 +443,15 @@
                 "Filename": "task"
             },
             {
+                "Cmd": "tkn",
+                "VersionArg": "version",
+                "VersionRegexp": "Client version:.+([0-9]+.[0-9]+.[0-9]+)",
+                "GithubOwner": "tektoncd",
+                "GithubRepo": "cli",
+                "ReleaseName": "tkn_{VERSION}_Linux_x86_64.tar.gz",
+                "Filename": "tkn"
+            },
+            {
                 "Cmd": "velero",
                 "VersionArg": "version --client-only",
                 "VersionRegexp": "Version: (v.+?)\n",
