@@ -406,6 +406,15 @@
                 "Filename": "pluto"
             },
             {
+                "Cmd": "pack",
+                "VersionArg": "--version",
+                "VersionRegexp": "([0-9]+.[0-9]+.[0-9]+)\\+git",
+                "GithubOwner": "buildpacks",
+                "GithubRepo": "pack",
+                "ReleaseName": "pack-v{VERSION}-linux.tgz",
+                "Filename": "pack"
+            },
+            {
                 "Cmd": "popeye",
                 "VersionArg": "version",
                 "VersionRegexp": "Version:.+([0-9]+.[0-9]+.[0-9]+)",
