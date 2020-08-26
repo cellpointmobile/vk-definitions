@@ -288,6 +288,15 @@
                 "Filename": "dockerize"
             },
             {
+                "Cmd": "docker-slim",
+                "VersionArg": "--version",
+                "VersionRegexp": "\\|([0-9]+.[0-9]+.[0-9]+)\\|",
+                "GithubOwner": "docker-slim",
+                "GithubRepo": "docker-slim",
+                "DownloadURL": "https://downloads.dockerslim.com/releases/{VERSION}/dist_linux.tar.gz",
+                "Filename": "dist_linux/docker-slim"
+            },
+            {
                 "Cmd": "fly",
                 "VersionArg": "--version",
                 "VersionRegexp": "(.+?)\n",
