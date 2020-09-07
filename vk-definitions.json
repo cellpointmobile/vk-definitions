@@ -499,6 +499,15 @@
         ],
         "unzipfile": [
             {
+                "Cmd": "keptn",
+                "VersionArg": "version",
+                "VersionRegexp": "Keptn CLI version: ([0-9]+.[0-9]+.[0-9]+)",
+                "GithubOwner": "keptn",
+                "GithubRepo": "keptn",
+                "ReleaseName": "{VERSION}_keptn-linux.zip",
+                "Filename": "keptn"
+            },
+            {
                 "Cmd": "tflint",
                 "VersionArg": "--version",
                 "VersionRegexp": "version (.+?)\n",
