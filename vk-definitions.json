@@ -234,6 +234,14 @@
                 "ReleaseName": "terraformer-all-linux-amd64"
             },
             {
+                "Cmd": "vendir",
+                "VersionArg": "version",
+                "VersionRegexp": "vendir version ([0-9]+.[0-9]+.[0-9]+)",
+                "GithubOwner": "k14s",
+                "GithubRepo": "vendir",
+                "ReleaseName": "vendir-linux-amd64"
+            },
+            {
                 "Cmd": "vk",
                 "VersionArg": "version",
                 "VersionRegexp": "Version: (.+?)\n",
