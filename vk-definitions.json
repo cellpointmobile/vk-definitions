@@ -10,6 +10,14 @@
                 "ReleaseName": "argocd-linux-amd64"
             },
             {
+                "Cmd": "clusterctl",
+                "VersionArg": "version",
+                "VersionRegexp": "v([0-9]+.[0-9]+.[0-9]+)",
+                "GithubOwner": "kubernetes-sigs",
+                "GithubRepo": "cluster-api",
+                "ReleaseName": "clusterctl-linux-amd64"
+            },
+            {
                 "Cmd": "container-diff",
                 "VersionArg": "version",
                 "VersionRegexp": "v([0-9]+.[0-9]+.[0-9]+)",
