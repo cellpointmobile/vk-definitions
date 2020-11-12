@@ -218,6 +218,14 @@
                 "ReleaseName": "onessl-linux-amd64"
             },
             {
+                "Cmd": "talosctl",
+                "VersionArg": "version --client",
+                "VersionRegexp": "Tag:.+v([0-9]+.[0-9]+.[0-9]+)",
+                "GithubOwner": "talos-systems",
+                "GithubRepo": "talos",
+                "ReleaseName": "talosctl-linux-amd64"
+            },
+            {
                 "Cmd": "terraform-docs",
                 "VersionArg": "--version",
                 "VersionRegexp": "terraform-docs version v([0-9]+.[0-9]+.[0-9]+) ",
