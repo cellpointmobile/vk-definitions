@@ -515,7 +515,7 @@
                 "Cmd": "velero",
                 "VersionArg": "version --client-only",
                 "VersionRegexp": "Version: (v.+?)\n",
-                "GithubOwner": "heptio",
+                "GithubOwner": "vmware-tanzu",
                 "GithubRepo": "velero",
                 "ReleaseName": "velero-v{VERSION}-linux-amd64.tar.gz",
                 "Filename": "velero-v{VERSION}-linux-amd64/velero"
