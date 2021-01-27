@@ -293,6 +293,15 @@
                 "Filename": "chezmoi"
             },
             {
+                "Cmd": "cortextool",
+                "VersionArg": "version",
+                "VersionRegexp": "([0-9]+\\.[0-9]+\\.[0-9]+)",
+                "GithubOwner": "grafana",
+                "GithubRepo": "cortex-tools",
+                "ReleaseName": "cortextool_{VERSION}_linux_amd64.tar.gz",
+                "Filename": "cortextool"
+            },
+            {
                 "Cmd": "dive",
                 "VersionArg": "version",
                 "VersionRegexp": "dive (.+?)\n",
