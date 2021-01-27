@@ -26,15 +26,6 @@
                 "DownloadURL": "https://storage.googleapis.com/container-diff/v{VERSION}/container-diff-linux-amd64"
             },
             {
-                "Cmd": "cortextool",
-                "VersionArg": "version",
-                "VersionRegexp": "([0-9]+\\.[0-9]+\\.[0-9]+)",
-                "GithubOwner": "grafana",
-                "GithubRepo": "cortex-tools",
-                "ReleaseName": "cortextool_{VERSION}_linux_amd64.tar.gz",
-                "Filename": "cortextool"
-            },
-            {
                 "Cmd": "direnv",
                 "VersionArg": "version",
                 "VersionRegexp": "(.+?)\n",
@@ -300,6 +291,15 @@
                 "GithubRepo": "chezmoi",
                 "ReleaseName": "chezmoi_{VERSION}_linux_amd64.tar.gz",
                 "Filename": "chezmoi"
+            },
+            {
+                "Cmd": "cortextool",
+                "VersionArg": "version",
+                "VersionRegexp": "([0-9]+\\.[0-9]+\\.[0-9]+)",
+                "GithubOwner": "grafana",
+                "GithubRepo": "cortex-tools",
+                "ReleaseName": "cortextool_{VERSION}_linux_amd64.tar.gz",
+                "Filename": "cortextool"
             },
             {
                 "Cmd": "dive",
