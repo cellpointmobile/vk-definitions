@@ -366,6 +366,15 @@
                 "Filename": "helmsman"
             },
             {
+                "Cmd": "hubble",
+                "VersionArg": "version",
+                "VersionRegexp": "hubble v([0-9]+.[0-9]+.[0-9]+)",
+                "GithubOwner": "cilium",
+                "GithubRepo": "hubble",
+                "ReleaseName": "hubble-linux-amd64.tar.gz",
+                "Filename": "hubble"
+            },
+            {
                 "Cmd": "k8sec",
                 "VersionArg": "version",
                 "VersionRegexp": "version:? v?(.+?),",
