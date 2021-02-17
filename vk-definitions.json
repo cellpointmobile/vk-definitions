@@ -330,6 +330,15 @@
                 "Filename": "dist_linux/docker-slim"
             },
             {
+                "Cmd": "flux",
+                "VersionArg": "--version",
+                "VersionRegexp": "flux version ([0-9]+.[0-9]+.[0-9]+)",
+                "GithubOwner": "fluxcd",
+                "GithubRepo": "flux2",
+                "ReleaseName": "flux_{VERSION}_linux_amd64.tar.gz",
+                "Filename": "flux"
+            },
+            {
                 "Cmd": "fly",
                 "VersionArg": "--version",
                 "VersionRegexp": "(.+?)\n",
