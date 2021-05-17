@@ -286,7 +286,7 @@
             {
                 "Cmd": "chezmoi",
                 "VersionArg": "--version",
-                "VersionRegexp": "chezmoi version ([0-9]+.[0-9]+.[0-9]+),",
+                "VersionRegexp": "chezmoi version v([0-9]+.[0-9]+.[0-9]+),",
                 "GithubOwner": "twpayne",
                 "GithubRepo": "chezmoi",
                 "ReleaseName": "chezmoi_{VERSION}_linux_amd64.tar.gz",
@@ -382,6 +382,15 @@
                 "GithubRepo": "hubble",
                 "ReleaseName": "hubble-linux-amd64.tar.gz",
                 "Filename": "hubble"
+            },
+            {
+                "Cmd": "istioctl",
+                "VersionArg": "version --remote=false",
+                "VersionRegexp": "([0-9]+.[0-9]+.[0-9]+)",
+                "GithubOwner": "istio",
+                "GithubRepo": "istio",
+                "ReleaseName": "istioctl-{VERSION}-linux-amd64.tar.gz",
+                "Filename": "istioctl"
             },
             {
                 "Cmd": "k8sec",
