@@ -234,14 +234,6 @@
                 "ReleaseName": "talosctl-linux-amd64"
             },
             {
-                "Cmd": "terraform-docs",
-                "VersionArg": "--version",
-                "VersionRegexp": "terraform-docs version ([0-9]+.[0-9]+.[0-9]+) ",
-                "GithubOwner": "segmentio",
-                "GithubRepo": "terraform-docs",
-                "ReleaseName": "terraform-docs-v{VERSION}-linux-amd64"
-            },
-            {
                 "Cmd": "terraformer",
                 "VersionArg": "--version",
                 "VersionRegexp": "version v(.+?)\n",
@@ -537,6 +529,15 @@
                 "GithubRepo": "task",
                 "ReleaseName": "task_linux_amd64.tar.gz",
                 "Filename": "task"
+            },
+            {
+                "Cmd": "terraform-docs",
+                "VersionArg": "--version",
+                "VersionRegexp": "terraform-docs version ([0-9]+.[0-9]+.[0-9]+) ",
+                "GithubOwner": "segmentio",
+                "GithubRepo": "terraform-docs",
+                "ReleaseName": "terraform-docs-v{VERSION}-linux-amd64.tar.gz",
+                "Filename": "terraform-docs"
             },
             {
                 "Cmd": "tkn",
