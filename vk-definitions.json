@@ -578,9 +578,9 @@
             {
                 "Cmd": "terrascan",
                 "VersionArg": "version",
-                "VersionRegexp": "Version:\"v(.+?)\"",
-                "GithubOwner": "terrascan",
-                "GithubRepo": "accurics",
+                "VersionRegexp": "version:\"v(.+?)\"",
+                "GithubOwner": "accurics",
+                "GithubRepo": "terrascan",
                 "ReleaseName": "terrascan_{VERSION}_Linux_x86_64.tar.gz",
                 "Filename": "terrascan"
             }
