@@ -574,6 +574,15 @@
                 "GithubRepo": "prometheus_varnish_exporter",
                 "ReleaseName": "prometheus_varnish_exporter-{VERSION}.linux-amd64.tar.gz",
                 "Filename": "prometheus_varnish_exporter-{VERSION}.linux-amd64/prometheus_varnish_exporter"
+            },
+            {
+                "Cmd": "terrascan",
+                "VersionArg": "version",
+                "VersionRegexp": "Version:\"v(.+?)\"",
+                "GithubOwner": "terrascan",
+                "GithubRepo": "accurics",
+                "ReleaseName": "terrascan_{VERSION}_Linux_x86_64.tar.gz",
+                "Filename": "terrascan"
             }
         ],
         "unzipfile": [
