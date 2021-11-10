@@ -272,6 +272,14 @@
                 "GithubOwner": "k14s",
                 "GithubRepo": "ytt",
                 "ReleaseName": "ytt-linux-amd64"
+            },
+            {
+                "Cmd": "kubescape",
+                "VersionArg": "version",
+                "VersionRegexp": "Your current version is: v([0-9]+.[0-9]+.[0-9]+)",
+                "GithubOwner": "armosec",
+                "GithubRepo": "kubescape",
+                "ReleaseName": "kubescape-ubuntu-latest"
             }
         ],
         "untarfile": [
